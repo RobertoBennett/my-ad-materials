@@ -2,7 +2,7 @@
 /* ====================================
  * Plugin Name: My Ad Materials
  * Description: Это мощный инструмент для управления рекламой, который превращает любой контент в привлекательный рекламный банер. 
- * Plugin URI: https://yoursite.com/
+ * Plugin URI: https://github.com/RobertoBennett/my-ad-materials
  * Version: 1.3
  * Author: Robert Bennett
  * Text Domain: My Ad Materials
@@ -1142,4 +1142,5 @@ add_action('init', function() {
 });
 
 // Проверка таблицы при загрузке плагина
+
 add_action('plugins_loaded', 'maybe_create_analytics_table');
